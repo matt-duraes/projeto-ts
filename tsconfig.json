@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        //local aonde o ts vai colocar o js gerado
+        "outDir": "dist/js",
+        //versao do js
+        "target": "ESNext",
+        //não irá gerar o js caso ts tenha erro
+        "noEmitOnError": true
+    },
+    /*aonde os arquivos ts estão*/
+    "include": [
+        "app/**/*"
+    ]
+}
