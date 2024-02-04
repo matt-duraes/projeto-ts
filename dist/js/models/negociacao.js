@@ -5,7 +5,8 @@ export class Negociacao {
         this.valor = valor;
     }
     get BuscarData() {
-        return this.data;
+        const data = new Date(this.data.getTime());
+        return data;
     }
     get BuscarQuantidade() {
         return this.quantidade;
